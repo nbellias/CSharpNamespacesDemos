@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MyClasses.Models.Statements.TransactionDetail">
+    <Position X="3" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAiBAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\Statements\TransactionDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MyClasses.Models.Statements.DetailedTransaction">
+    <Position X="6.25" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAEAAABAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Statements\DetailedTransaction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="TransactionDetails" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MyClasses.Models.Statements.Statement">
+    <Position X="9" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>jACQAgAgAAAgABAAAEAAAAAAAoABAAAQQAAAAAAEBBg=</HashCode>
+      <FileName>Models\Statements\Statement.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="DetailedTransaction" />
+      <Property Name="Transaction" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MyClasses.Models.Statements.Transaction">
+    <Position X="12.75" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAgAAAAAAAIAAAAAAAAAAABAAAAAAAABAA=</HashCode>
+      <FileName>Models\Statements\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
